@@ -1,0 +1,66 @@
+.how-to {
+  width: 90%;
+  margin: 0 auto;
+}
+.how-to-headline {
+  font-size: 2.2rem;
+  font-weight: bolder;
+  line-height: 1;
+}
+.how-to-content {
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: justify;
+}
+.how-to-tick {
+  color: #e21b70;
+}
+.line-break {
+  width: 90%;
+  border-bottom: 0.2px solid lightgray;
+  margin: auto;
+}
+.faq {
+  font-size: 1.1rem;
+  padding: 10px 0;
+  text-decoration: none;
+}
+.read-more {
+  margin: 10px auto;
+  padding: 10px;
+  width: 90%;
+  color: black;
+}
+.read-more a {
+  font-size: 1rem;
+  color: black;
+}
+.read-more:hover {
+  background-color: lightgray;
+}
+.questions-section {
+  max-width: 1425px;
+  margin: 0 auto;
+  margin-top: -490px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1264px) {
+  .questions-section {
+    margin-top: 0;
+  }
+  .how-to-headline{
+    font-size: 2rem;
+  }
+  .faq{
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .questions-section {
+    margin-top: 0;
+  }
+  .faq{
+    font-size: 1.1rem;
+  }
+}

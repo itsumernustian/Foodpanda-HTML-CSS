@@ -1,0 +1,169 @@
+.vendor-headline {
+  margin: 0 0 0 10px;
+  max-width: 1425px;
+  margin: auto;
+}
+.section-headline {
+  padding: 0 48px;
+  position: relative;
+  /* width: 100%; */
+  max-width: 1425px;
+  margin-left: auto;
+  margin-right: auto;
+  top: -53px;
+  font-size: 11.5rem;
+  font-weight: bolder;
+  color: rgb(240, 235, 235);
+  letter-spacing: 2px;
+}
+.headline-subtitle {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 115px;
+  left: 43px;
+  color: black;
+  font-weight: 100;
+}
+.card-container {
+  max-width: 1425px;
+  margin: auto;
+}
+.home-vendor {
+  overflow: hidden;
+}
+.home-vendor-section-img {
+  width: 100%;
+  background-image: url("../images/home-vendor-pk.webp");
+  background-size: cover;
+  background-position: center;
+  height: 432px;
+  position: relative;
+  top: -290px;
+}
+.vendor-title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.vendor-content {
+  font-size: 1rem;
+  color: #707070;
+  font-weight: 100;
+}
+
+.vendor-card {
+  width: 540px;
+  padding: 20px 40px;
+  background-color: white;
+  position: relative;
+  top: 165px;
+  left: 70px;
+  box-shadow: 0 2px 28px 0 rgb(0 0 0 / 12%);
+}
+.vendor-btn-div {
+  display: flex;
+  justify-content: end;
+  padding: 5px 0;
+}
+
+.vendor-btn {
+  padding: 13px 60px;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  background-color: #e21b70;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1416px) {
+  .section-headline {
+    top: 90px;
+  }
+  .home-vendor-section-img {
+    top: -160px;
+  }
+}
+@media screen and (max-width: 1264px) {
+  .home-vendor {
+    margin-top: -55px;
+  }
+  .section-headline {
+    z-index: -1;
+    font-size: 5rem;
+    top: 100px;
+  }
+  .headline-subtitle {
+    font-size: 1.3rem;
+    top: 46px;
+  }
+  .vendor-headline {
+    margin-left: 35px;
+    top: 99px;
+    z-index: -1;
+  }
+  .home-vendor-section {
+    height: 510px;
+  }
+  .home-vendor-section-img {
+    position: static;
+  }
+  .vendor-card {
+    width: 400px;
+    top: 85px;
+  }
+  .vendor-btn {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .home-vendor {
+    margin-top: -110px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .vendor-card {
+    width: 370px;
+    left: 40px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .vendor-card {
+    width: 69%;
+    left: 3%;
+    top: 137px;
+  }
+  .vendor-title {
+    font-size: 1.2rem;
+  }
+  .vendor-section-headline span {
+    font-size: 1.2rem;
+    left: 20px;
+    line-height: 1;
+    top: 31px;
+  }
+  .vendor-content {
+    font-size: 0.8rem;
+    font-weight: 200;
+  }
+  .vendor-btn {
+    padding: 12px 50px;
+    font-size: 1rem;
+    font-weight: 100;
+  }
+  .section-headline {
+    padding: 0px 23px;
+  }
+  .vendor-section-headline{
+    top: 70px;
+    right: 43px;
+    font-size: 4rem;
+  }
+  .home-vendor-section{
+    height: 654px;
+  }
+}

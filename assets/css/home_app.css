@@ -1,0 +1,238 @@
+.home-apps {
+  position: relative;
+  bottom: 160px;
+}
+.home-office {
+  position: relative;
+  top: -450px;
+}
+.home-app-section {
+  background-color: #e21b70;
+  height: 370px;
+  position: relative;
+  bottom: 300px;
+}
+.app-container {
+  max-width: 1425px;
+  margin: auto;
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+.app-container-left {
+  width: 50%;
+  padding-top: 5%;
+}
+.app-headline {
+  color: white;
+  font-size: 2rem;
+  font-weight: 100;
+}
+.app-content {
+  color: white;
+  font-weight: 100;
+}
+.app-platform {
+  padding-top: 9%;
+  display: flex;
+}
+.app-platform a {
+  text-decoration: none;
+  margin-right: 10px;
+}
+.app-container-right {
+  width: 50%;
+}
+.app-logo {
+  width: 810px;
+  position: relative;
+  top: -123px;
+}
+.app-section-headline {
+  top: -109px;
+  font-size: 9.5rem;
+}
+.app-headline-subtitle {
+  top: 96px;
+  left: 54px;
+  font-size: 1.6rem;
+}
+.office-img {
+  background-image: url("../images/home-corporate-pk.webp");
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 432px;
+  position: relative;
+  top: -290px;
+}
+.office-card {
+  top: 340px;
+}
+
+/* @media screen and (max-width: 480px) {
+  .office-card {
+    width: auto;
+    left: 0;
+  }
+  .home-app-section {
+    position: static;
+    height: auto;
+  }
+  .app-headline {
+    font-size: 1.5rem;
+  }
+  .app-container-right {
+    display: none;
+  }
+} */
+
+@media screen and (max-width: 1264px) {
+  .app-container {
+    width: 90%;
+  }
+  .app-logo {
+    width: 600px;
+    top: -58px;
+  }
+  .home-app-section {
+    margin-top: -66px;
+    height: 300px;
+    position: static;
+  }
+  .app-container-left {
+    padding-top: 0;
+  }
+  .app-platform {
+    padding-top: 0;
+  }
+  .app-section-headline {
+    z-index: -1;
+    top: 64px;
+    font-size: 6.5rem;
+  }
+  .app-headline-subtitle {
+    font-size: 1rem;
+    top: 69px;
+    left: 48px;
+  }
+  .office-card {
+    top: 257px;
+  }
+  .office-img {
+    position: static;
+  }
+  .office-headline {
+    top: 110px;
+  }
+  .office-subtitle {
+    top: 39px;
+    font-size: 1.1rem;
+    left: 48px;
+  }
+  .home-office {
+    position: static;
+    margin-top: -70px;
+  }
+  .home-office-section {
+    height: 550px;
+  }
+  .home-apps {
+    margin-top: -56px;
+    position: static;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .app-section-headline{
+    top: 21px;
+    right: 37px;
+    font-size: 4.5rem;
+  }
+  .app-headline-subtitle{
+    top: 47px;
+  }
+  .app-platform {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .home-app-section {
+    height: 380px;
+  }
+  .app-logo {
+    overflow-y: hidden;
+  }
+  .app-container {
+    width: 40%;
+  }
+  .app-container-left {
+    padding: 0 57px;
+    width: 60%;
+  }
+  .app-container {
+    overflow-x: clip;
+    width: 100%;
+  }
+  .app-headline {
+    font-size: 1.5rem;
+  }
+  .app-container-right {
+    width: 40%;
+  }
+  .office-headline{
+    right: 39px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .office-card {
+    width: 230px;
+    left: 40px;
+  }
+  .app-container-right {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .app-logo {
+    width: 363px;
+    top: -470px;
+  }
+  .app-container-left {
+    padding-top: 145px;
+    width: 75%;
+    margin: auto;
+  }
+  .app-container {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .home-app-section {
+    height: 500px;
+  }
+  .app-logo {
+    width: 275px;
+    top: -525px;
+  }
+  .app-headline-subtitle{
+    display: none;
+  }
+  .app-container-left{
+    width: 92%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .office-headline{
+    top: 112px;
+    right: 44px;
+  }
+  .office-subtitle{
+    top: 37px;
+    left: 18px;
+  }
+  .office-card{
+    width: 220px;
+    left: 3%;
+  }
+}

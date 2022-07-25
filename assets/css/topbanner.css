@@ -1,0 +1,97 @@
+.top-banner {
+    background-color: #d70f64;
+    /* display: flex; */
+    display: none;
+    padding: 5px 0 5px 0;
+}
+
+.top-banner-left{
+    display:  flex;
+    align-items: center;
+    width:95%;
+    justify-content: center;
+}
+
+.top-banner__bag__icon{
+    fill:white;
+    width: 48px;
+    height: 48px;
+}
+.top-banner-text{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 4px;
+    margin-left: 30px;
+}
+.top-banner__signup_btn{
+    cursor: pointer;
+    margin-left: 30px;
+    height: 48px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 10px;
+    background-color: #d70f64;
+    color: white;
+    border-color: white;
+    padding:10px;
+    font-family: "Open Sans",Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+.top-banner-right{
+    color: white;
+    display: flex;
+    justify-content: end;
+    width: 5%;
+    margin: 0 10px 0 0;
+}
+.top-banner-right a{
+    color: white;
+}
+
+@media screen and (max-width:768px){
+    .top-banner-left{
+        width: 95%;
+    }
+    .top-banner-right{
+        width: 2%;
+    }
+}
+
+@media screen and (max-width:543px){
+    .top-banner-right{
+        margin-left: 5px;
+    }
+    .top-banner__signup_btn{
+        width: 110px;
+        white-space: nowrap; 
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+@media screen and (max-width:480px){
+    .top-banner-bag{
+        display: none;
+    }
+    .top-banner-text{
+        font-weight: 400;
+    }
+    .top-banner__signup_btn{
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width:338px){
+    .top-banner-text{
+        margin-left: 5px;
+    }
+    .top-banner__signup_btn{
+        height: 40px;
+        width: 90px;
+        margin-left:0.9px;
+    }
+}

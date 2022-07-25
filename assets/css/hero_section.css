@@ -1,0 +1,216 @@
+.home-content {
+  max-width: 1425px;
+  margin: auto;
+}
+
+.home-content-right {
+  position: absolute;
+  right: 0;
+  top: 66px;
+  z-index: -1;
+  width: 33%;
+  height: 680px;
+  background-image: url("../images/hero-home-pk.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+.home-content-left {
+  width: 60%;
+}
+
+.home-content-left div p {
+  color: #333;
+  margin-left: 83px;
+  font-size: 2.3rem;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 768px) {
+  .home-text {
+    padding: 80px 0 48px 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .home-text {
+    padding: 198px 0 48px 0;
+  }
+}
+
+.resturant-search {
+  /* border-radius: 7px; */
+  /* position: relative; */
+  /* top:-240px; */
+  margin-right: 10px;
+  margin-left: 86px;
+  padding: 18px;
+  box-shadow: 0 0 10px rgba(199, 183, 183, 0.4);
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 910px;
+}
+.order-option div {
+  margin: 0 5px;
+  color: gray;
+  font-size: 1.3rem;
+}
+.btn {
+  /* width: 160px;
+    height: 60px; */
+  padding: 20px 68px;
+  color: white;
+  background-color: #e0116d;
+  outline: none;
+  border-radius: 10px;
+  border-color: #e0116d;
+  font-family: sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #c02269;
+}
+
+.input-search-resturant {
+  width: 90%;
+  height: 60px;
+  outline: none;
+  font-size: 1rem;
+  border: none;
+}
+
+.input-search-div {
+  /* margin: 0 10px; */
+  border: solid;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: lightgray;
+  width: 50%;
+  padding: 0 10px;
+  background-color: white;
+}
+
+.input-search-div a {
+  color: #e0116d;
+}
+.order-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+@media screen and (max-width: 1264px) {
+  .resturant-search {
+    width: 89%;
+  }
+  .home-content-right {
+    height: 544px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .resturant-search {
+    width: 95%;
+    top: -150px;
+    margin-left: 40px;
+  }
+  .home-content-left div p {
+    margin-left: 40px;
+  }
+  .home-content-right {
+    background-image: url("../images/hero-home-pk-tablet.webp");
+    width: 50%;
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .resturant-search {
+    display: block;
+    box-shadow: none;
+    margin-left: 20px;
+    background: none;
+    margin: 0;
+  }
+
+  .input-search-div {
+    width: 96%;
+  }
+  .order-option {
+    /* width: 89%; */
+    margin-top: 10px;
+  }
+  .home-content-left div p {
+    font-size: 2rem;
+  }
+  .home-content-right {
+    height: 290px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+    .order-option{
+        width: 106%;
+    }
+    .order-option div{
+        margin: 0;
+        padding: 0;
+        font-size: 1rem;
+    }
+    .order-option div input {
+      width: 100%;
+      margin: auto;
+    }
+    .or {
+      width: 10px;
+    }
+    .btn {
+      width: 100%;
+      margin: 10px auto;
+      padding: 20px 30px;
+      font-weight: 100;
+    }
+    .home-content-right {
+      height: 424px;
+    }
+    .input-search-resturant {
+      width: 90%;
+      height: 56px;
+      font-size: 1rem;
+      font-weight: 100;
+    }
+    .input-search-div {
+      width: 98%;
+    }
+    .home-content-left div p {
+      font-size: 1.5rem;
+      margin-left: 25px;
+    }
+    .home-section{
+      display: flex;
+      align-items: center;
+      height: 419px;
+    }
+    .resturant-search{
+      margin-top: -69px;
+      width: 86%;
+    }
+  }
+
+  @media screen and (min-width:1440px){
+    .home-content-right{
+      max-height: 680px;
+    }
+  }
+
+  @media screen and (min-width:1265px) {
+    .home-content-right{
+      max-height: 644px;
+    }   
+  }
+  

@@ -1,0 +1,196 @@
+.home-cities-headline {
+  margin: 0 auto;
+  padding: 0 77px;
+  padding: 0 48px;
+  left: 80px;
+  position: relative;
+  max-width: 1425px;
+  margin-left: auto;
+  margin-right: auto;
+  top: -53px;
+  font-size: 8.5rem;
+  font-weight: bolder;
+  color: rgb(240, 235, 235);
+  letter-spacing: 2px;
+}
+.img-hover-zoom {
+  margin-bottom: 10px;
+  height: 290px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  width: 240px;
+  transition: transform 0.5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.1);
+}
+.img-hover-zoom:hover a p {
+  display: block;
+}
+.img-hover-zoom:hover a button {
+  display: block;
+}
+.home-cities-section {
+  position: relative;
+  top: -124px;
+  max-width: 1425px;
+  margin: 0 auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 15px 25px;
+}
+.img-hover-zoom a img {
+  height: 280px;
+}
+.img-hover-zoom a {
+  text-decoration: none;
+}
+.img-hover-zoom a h4 {
+  position: relative;
+  bottom: 80px;
+  left: 30px;
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: white;
+  letter-spacing: 1.3px;
+  z-index: 1;
+}
+
+.img-hover-zoom a p {
+  display: none;
+  position: relative;
+  bottom: 543px;
+  left: -23px;
+  font-size: 15rem;
+  font-weight: bold;
+  color: #d70f64;
+  opacity: 0.5;
+}
+
+.img-hover-zoom a button {
+  display: none;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #e21b70;
+  color: white;
+  position: relative;
+  bottom: 908px;
+  left: 178px;
+}
+.cities-subtitle {
+  left: 43px;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 70px;
+  color: black;
+  font-weight: 100;
+}
+
+@media screen and (max-width: 1424px) {
+  home-cities-headline {
+    top: 0;
+  }
+  .home-cities-section {
+    top: 20px;
+    margin: 0 auto;
+    grid-template-columns: auto auto auto auto;
+  }
+  .img-hover-zoom a button {
+    left: 190px;
+  }
+}
+@media screen and (max-width: 1264px) {
+  home-cities-headline {
+    top: 0;
+    font-size: 3.5rem;
+  }
+  .home-cities-section {
+    position: static;
+    top: -75px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .img-hover-zoom a button {
+    /* left: 190px; */
+    left: 75%;
+  }
+  .cities-subtitle {
+    font-size: 1.4rem;
+    top: 84px;
+    left: 47px;
+  }
+  .home-cities-headline {
+    top: 69px;
+    z-index: -1;
+    left: 11px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+  .home-cities-section {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  .img-hover-zoom {
+    overflow: visible;
+  }
+  .home-cities-headline {
+    top: 46px;
+    font-size: 5.5rem;
+  }
+  .cities-subtitle{
+    top: 41px;
+  }
+  .img-hover-zoom a p {
+    left: -24px;
+    bottom: 548px;
+    overflow:hidden;
+  }
+  .img-hover-zoom a button {
+    /* left: 190px; */
+    left: 82%;
+    bottom: 903px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .home-cities-headline {
+    left: 0;
+    top: 30px;
+    font-size: 3.5rem;
+  }
+  .cities-subtitle {
+    left: 46px;
+    font-size: 1rem;
+    top: 26px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .home-cities-section {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  .home-cities-headline {
+    right: 44px;
+    top: 44px;
+    font-size: 3.5rem;
+  }
+  .cities-subtitle {
+    left: 51px;
+    font-size: 1.2rem;
+    top: 3px;
+  }
+}

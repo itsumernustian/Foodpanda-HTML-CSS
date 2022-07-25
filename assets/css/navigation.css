@@ -1,0 +1,92 @@
+header{
+    background-color: white;
+    /* position: fixed;
+    width: 100%;
+    z-index: 1; */
+}
+.navbar{
+    padding:2px;
+    margin:0 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+.logo-foodpanda{
+    margin:0 2px;
+    width: 30px;
+    height: 30px;
+}
+.home a {
+    height: 60px;
+    padding: 0 10px;
+    letter-spacing: 1.2px;
+    color: #d70f64;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.home a h3{
+    font-size: 1.5rem;
+}
+.navbar-left{
+    display: flex;
+    align-items: center;
+}
+.user-login a{
+    font-size: 0.8rem;
+    font-weight: bolder;
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.user-login a i , .cart a i {
+    color: #d70f64;
+}
+.cart a i {
+    padding: 0 15px;
+}
+.user-login a i{
+    padding: 0 11px;
+
+}
+/* .user-login , .cart{
+    margin: 0 3px;
+    padding: 0 10px;
+} */
+.user-login{
+    padding: 0 20px 0 0;
+}
+.login-label{
+    padding: 0 10px 0 0;
+}
+.divider{
+    border-left: 2px solid #e9e7e7;
+    height: 30px;
+}
+
+@media screen and (max-width:959px) {
+    .lg-screen{
+        display: none;
+    }
+}
+
+@media screen and (min-width:960px) {
+    .md-screen{
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .logo-foodpanda{
+        display: none;
+    }
+   
+}
+
+
+@media screen and (max-width:290px) {
+    .navbar{
+        margin:0 5px;
+    }
+}
